@@ -1,0 +1,244 @@
+   * {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: Gilory;
+   }
+
+   html,
+   body {
+       height: 100%;
+       width: 100%;
+   }
+
+
+   #main {
+       overflow: hidden;
+       height: 100vh;
+       width: 100vw;
+       background-color: #fff;
+   }
+
+   .top>img {
+       position: relative;
+       top: -120px;
+       left: -75px;
+       animation: a 40s linear infinite both;
+
+   }
+
+   @keyframes a {
+
+       0% {
+
+           transform: rotate(360deg);
+       }
+   }
+
+   .arroplan>img {
+       position: absolute;
+       top: -10%;
+       width: 25%;
+       left: 50%;
+       z-index: 99999999999;
+       animation: c 3s linear 3s 1 both;
+
+   }
+
+
+   @keyframes c {
+
+       0% {
+           transform: rotate(50deg);
+           left: -45%;
+           top: -100%;
+       }
+
+       100% {
+           transform: rotate(-10deg);
+           top: -6%;
+           left: 70%;
+           opacity: 1;
+       }
+   }
+
+   .end {
+       top: 8%;
+       position: relative;
+       height: 40vh;
+       width: 100vw;
+   }
+
+   .end img {
+       position: relative;
+       width: 120vw;
+
+       animation: ab 20s linear alternate;
+   }
+
+   @keyframes ab {
+       0% {
+           transform: translateY(30%);
+           animation-iteration-count: 1;
+       }
+
+       40% {
+           transform: translateX(-15%);
+       }
+
+       80% {
+           transform: translateX(5%);
+       }
+
+       100% {
+           transform: translate(0%);
+       }
+   }
+
+   .center {
+       overflow: hidden;
+       padding: 50px 30px;
+       position: absolute;
+       height: 50%;
+       left: 25%;
+       top: 15%;
+       width: 50%;
+       animation: hap 40s linear infinite both;
+   }
+
+   .center h1 {
+       font-size: 40px;
+       color: orangered;
+       text-align: center;
+       line-height: 50px;
+       text-transform: capitalize;
+   }
+
+   @keyframes hap {
+       0% {
+           background-image: url(./Republic\ Day\ 2019\ Who\ will\ hoist\ the\ National\ Flag\ on\ Republic\ Day.webp);
+           background-size: cover;
+           background-position: center;
+       }
+
+       10% {
+           background-image: url("./OIP\ \(8\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       20% {
+           background-image: url("./OIP\ \(9\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       30% {
+           background-image: url("./OIP\ \(2\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       40% {
+           background-image: url("./download.jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       50% {
+           background-image: url("./OIP\ \(4\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       60% {
+           background-image: url("./OIP\ \(5\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       70% {
+           background-image: url("./OIP\ \(6\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       80% {
+           background-image: url("./OIP\ \(5\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+
+       90% {
+           background-image: url(./Bhagat-Singh-Quotes-Thoughts.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+
+       100% {
+           background-image: url("./OIP\ \(11\).jfif");
+           background-size: cover;
+           background-position: center;
+       }
+   }
+
+   span {
+
+       color: green;
+   }
+   .DAY {
+     display:flex;
+       position: relative;
+       top: 25px;
+       color:green;
+       font-size: 50PX;
+       font-weight: 300;
+       font-style: italic;
+       letter-spacing: 1px;
+       left: 27%;
+       width: 46%;
+       animation: ani 10s linear infinite both;
+       height: 50px;
+   }
+
+   /* .DAY::before {
+       content: "HAPPY INDEPENDENCE DAY";
+       position: absolute;
+       color: orange;
+       width: 100%;
+       left: 0;
+       right: 0;
+       height: 100%;
+       border-right: 5px solid orange;
+       overflow: hidden;
+   } */
+
+   @keyframes ani {
+       0% {
+        color:orange;
+       }
+
+       100% {
+           width:green;
+       }
+
+      
+   }
+   #audio{
+    position: relative;
+     transform: rotate(90deg);
+    left:90%;
+    top:-50%;
+    animation: aniket 2s linear 1 both;
+
+}
+@keyframes  aniket {
+    0%{
+        content:"play audio";
+    }
+    100%{
+        content:"";    
+    }
+}
+
+
